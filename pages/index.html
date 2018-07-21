@@ -1,0 +1,365 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Arts for sale</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+    <script src="like_button.js"></script>
+    <link rel="stylesheet" href="../styles/index-style.css">
+</head>
+
+<body style="width: 960px ; margin: auto">
+    
+    <div class="main-header">
+        <div class="arts-div" >
+          <header>
+              <p class="arts">A&#32;T&#32;</p>
+              <p class="for">FOR</p>
+              <p class="sale">SALE</p>
+          </header>
+        </div> 
+        <div class="quote">
+            <header> <p>"Art enables us to find ourselves and lose ourselves at the same time"</p></header>
+            <header> <p>-Thomas Mertone</p></header>
+       
+    </div>  
+    </div>
+   
+
+
+
+    <nav>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about-me.html">ABOUT ME</a></li>
+            <li><a href="media.html">MEDIA</a></li>
+            <li><a href="">PORTRAIT</a></li>
+            <li><a href="">LANDSCAPE</a></li>
+        </ul>
+
+    </nav>
+
+
+        <main>
+            <div class="row">
+                <section style="display:block">
+                        <div class="row" id="row-1">
+                            <div class="item" style="background-color: white; ">
+                                <div id="carousel" class="carousel slide" data-ride="carousel">
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carousel" data-slide-to="1"></li>
+                                        <li data-target="#carousel" data-slide-to="2"></li>
+                                        <li data-target="#carousel" data-slide-to="3"></li>
+                                    </ol>
+
+                                    <div class="carousel-inner">
+                                        <div class="item active">
+                                            <div class="painting-def">
+                                                <h2> EVEREST </h2>
+                                            </div>
+                                            <img src="../images/pic_10.jpg" alt="Painting of mount Everet" />
+                                           
+                                        </div>
+
+                                        <div class="item">
+                                                <div class="painting-def" >
+                                                        <h2> MAKALU </h2>
+                                            </div>
+                                            <img src="../images/pic_11.jpg" alt="Painting of mount Makalu">
+                                            
+
+                                        </div>
+                                        <div class="item">
+                                                <div class="painting-def">
+                                                        <h2> LHOTSE </h2>
+                                            </div>
+                                            <img src="../images/pic_12.jpg" alt="Painting of mount Lhotse ">
+                                            
+                                        </div>
+                                        <div class="item">
+                                                <div class="painting-def">
+                                                        <h2>MANASALU</h2>
+                                            </div>
+                                            <img src="../images/pic_13.jpg" alt="Painting of Manasalu">
+                                            
+
+                                        </div>
+
+                                        <div class="row-3" id="glyphicons">
+                                                <button type="button" class="btn btn-default btn-sm text-center" href="#carousel" data-slide="prev"><a class="right" href="#carousel" data-slide="Previous">
+                                                                        <span class="glyphicon glyphicon-chevron-left" style="background-color: blue ;"></span>
+                                                                        <span class="sr-only" style="text-align: center ; margin-top:50px;">Prev</span>
+                                                 </a><br>Prev</button>
+                                                <button type="button" class="btn btn-default btn-sm text-center"><span class="glyphicon glyphicon-usd"></span><br>200</button>
+                                                <button type="button" class="btn btn-default btn-sm text-center"><span class="glyphicon glyphicon-exclamation-sign"></span><br>Info</button>
+                                                <button type="button" class="btn btn-default btn-sm text-center"><span class="glyphicon glyphicon-thumbs-up"></span><br>Like</button>
+                                                <button type="button" class="btn btn-default btn-sm text-center"><span class="glyphicon glyphicon-share-alt"></span><br>Share</button>
+                                                <button type="button" class="btn btn-default btn-sm text-center" href="#carousel" data-slide="next"><a class="right" href="#carousel" data-slide="next">
+                                                                        <span class="glyphicon glyphicon-chevron-right" style="background-color: blue ;"></span>
+                                                                        <span class="sr-only" style="text-align: center ; margin-top:50px;">Next</span>
+                                                 </a><br>Next</button>
+                            
+                            
+                                         </div>
+
+                                    </div>
+                            
+                            </div>
+                        </div>
+                    </div>
+                </section> 
+            </div>
+            <section >
+                    <div class="row-2" id="row2">
+                       
+                        <a id="detail-btn" data-toggle="collapse" data-target="#details" style="display: block">
+                            <div class="add-to-cart">
+                                <span class="glyphicon glyphicon-envelope" style="text-align: left"></span>
+                                <span>Details</span>
+                            </div>
+                        </a>
+                        <br>
+                        <a data-toggle="collapse" data-target="#questions" style="display: block">
+                            <div class="add-to-cart" >
+                                <span class="glyphicon glyphicon-question-sign" style="display:inline ; text-align: left"></span>
+                                <span>Questions</span>
+                            </div>
+                        </a>
+                        <a data-toggle="collapse" data-target="#frames" style="display: block">
+                            <div class="add-to-cart">
+                                <span class="glyphicon glyphicon-unchecked" style="display:inline ; text-align: left"></span>
+                                <span>Frames</span>
+                            </div>
+                        </a>
+                        <a href="">
+                                <div class="add-to-cart">
+                                    <div style="display: inline; margin: -20px 0 0 0 "><span class="glyphicon glyphicon-shopping-cart" style="display:inline ; text-align: left"></span>                                    </div>
+                                    <span>Add to Cart </span>
+                                </div>
+                        </a>
+                        </div>
+                        <!-- this div is for the details of each painting -->
+                        <div id="details" class="collapse">
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure modi, reprehenderit quae eius debitis optio quaerat vitae aspernatur cumque alias, voluptatibus vel laudantium quidem perferendis nobis esse deleniti illo magni!</p>
+                            
+                            <hr>
+                            <H2>Overview</H2>
+                            <ul>
+                                <li class="height">Height : 10 cm</li>
+                                <li class="width">width : 15 cm</li>
+                                <li class="time">Time : 2 Days</li>
+                            </ul>
+                                
+                         </div>
+
+                        <!-- form for questions -->
+                         <div id="questions" class="collapse" style="height:50px;">
+                             <form action="" method="post" name="questions-form" style="background: rgba(0,0,51,0.5)" >
+                                 <label for="firstName-id">First Name:</label>
+                                 <input id="firstName-id" type="text" class="firstName" placeholder="Lionel"></input>
+                                 <br>
+                                 <label for="lastName-id">Last Name:</label>
+                                 <input type="text" id="lastName-id" placeholder="Messi"/>
+                                 <br>
+                                 <label for="paint-id">Painting Name:</label>
+                              
+                                 <select name="paintings" id="select-paintings">
+                                     <option value="everet">EVEREST</option>
+                                     <option value="makalu">MAKALU</option>
+                                     <option value="lhotse">LHOTSE</option>
+                                     <option value="manasalu">MANASALU</option>
+                                 </select>
+                                
+                                 <br>
+
+                                 <label for="comment">Comment</label>
+                                 <input type="textarea" id="comment"   placeholder="This pae on question, what inspired you to draw this ?  and the clor combination you have applied
+                                 is oustanding "/>
+
+                                 <a id="detail-btn">
+                                        <div class="add-to-cart" >
+                                            <span class="glyphicon glyphicon-envelope" style="text-align: left" ></span>
+                                            <span style="display: inline-block">SUBMIT</span>
+                                        </div>
+                                </a>
+
+                                <a id="detail-btn" data-toggle="collapse" data-target="#details" >
+                                        <div class="add-to-cart">
+                                            <span class="glyphicon glyphicon-envelope" style="text-align: left"></span>
+                                            <span>CANCEL</span>
+                                        </div>
+                                </a>
+                             </form>
+                         </div>
+                         <!--  form for questions end  -->
+                         <!-- frames element -->
+                        <div id="frames" class="collapse">
+                              
+                            <table>
+                               <tr>
+                                    <td class="frames-temp1" colspan="3">
+                                        <div>
+                                             <img class="img-1" src="../images/pic_13.jpg" alt="Painting of Manasalu with Frame">
+                                        </div>
+                                    </td>
+                                   
+                                    <td class="frames-temp1" colspan="3">
+                                            <div>
+                                                <img class="img-1" src="../images/pic_12.jpg" alt="Painting of mount Lhotse with frame">
+                                            </div>
+                                    </td>
+                                    <td class="frames-temp1" colspan="3">
+                                            <div>
+                                                 <img class="img-1" src="../images/pic_11.jpg" alt="Painting of mount Makalu with Frame">
+                                            </div>
+                                        </td>
+                                </tr>
+                            </table>                           
+                        </div>
+            </section>
+            
+            </div>
+            <section>
+                <!--thid div conatins intems for sale-->
+
+                <div class="main-sale">
+                    <div class="column-1">
+                        <div class="item-1" id="saleItem">
+                            <div  class="main-sale-des">
+                                <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal">DETAILS</button>
+                            </div>
+                            <img id="test-id" src="../images/pic_1.jpg" alt="Painting of Napali Cultural Dress" style="width:100%">
+                        </div>
+
+                        <div class="item-1">
+                            <img src="../images/pic_2.jpg" alt="Painting of Himalayan chilren" style="width:100%">
+                            <div  class="main-sale-des">
+                                <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal">DETAILS</button>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+                    <div class="column-2">
+
+
+                        <!-- model  school -->
+                        <div class="containter">
+                        <div id="myModal" class="modal fade" role="dialog">
+                                <div class="modal-dialog modal-lg">
+                              
+                                  <!-- Modal content-->
+                                  <div class="modal-content">
+                                     
+                                        <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title"><strong>Header</strong> </h4>
+                                        </div>
+                                        <div class="modal-body">
+
+                                                <img src="../images/pic_2.jpg" alt="Cultural Dress" style="max-width: 450px; max-height: 700px; height:auto; width:auto" >
+                                                <div class="modal-details" id="painting-details-modal">
+                                                   
+                                                    <!-- <!<h4><strong>Style :</strong>{{style_}}</h4>
+                                                    <h4><strong>Medium :</strong>{{medium_}}</h4>
+                                                    <h4><strong>Material :</strong>{{materail_}}</h4>
+                                                    <h4><strong>Time :</strong>{{time_}}</h4>
+                                                    <h4><strong>Cost :</strong>{{cost_}}</h4> 
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta at error iusto natus fugiat, quae cumque rerum tempore mollitia eligendi quos minus cum nostrum eveniet quod voluptatibus alias voluptatum. Fugit maiores voluptatum, optio eius magnam pariatur, nesciunt laborum mollitia architecto expedita voluptatibus quia cupiditate temporibus rem sapiente voluptates reiciendis ratione dolore, et accusamus repellendus assumenda aliquid cumque inventore. Molestias, consectetur. Corrupti magnam ad cupiditate unde praesentium natus itaque aperiam iste accusantium assumenda mollitia quidem, inventore nisi numquam quia minima, amet nam, voluptas veritatis sint quibusdam laboriosam ab optio! Vel ipsam veniam impedit magnam? At doloremque nihil impedit iste labore aliquid.</p>
+                                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quam eius asperiores iusto vel vitae quibusdam harum modi laboriosam ullam soluta odit amet, voluptates possimus ut itaque. Dolorum necessitatibus accusantium, odit placeat sit quisquam. Itaque esse veniam porro officia quidem at aliquam iure dolore libero sunt fugit nesciunt temporibus, quasi non minus labore praesentium et maiores doloremque magnam, aperiam aspernatur ut accusantium. Corporis sed nam, numquam velit, consectetur ea, voluptate qui unde voluptatibus non similique!</p> -->
+                                                   
+                                                    <div id="like_button_container"></div>
+                                                </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                        </div>
+
+                                    </div>
+                                  </div>
+                              
+                                </div>
+                        </div>
+                        <!-- model window ends here -->
+                        <div class="item-1">
+                            <img src="../images/pic_20.jpg" alt="Painting of a Nepali girl" style="width:100%">
+                            <div  class="main-sale-des">
+                                    <button type="button" id="detail-21" class="btn btn-info" data-toggle="modal" data-target="#myModal">DETAILS</button>
+                                </div>
+                        </div>
+
+                        <div class="item-1">
+                            <img src="../images/pic_8.jpg" alt="A mother's pain" style="width:100%">
+                            <div  class="main-sale-des">
+                                    <button type="button" id="detail-22" class="btn btn-info" data-toggle="modal" data-target="#myModal">DETAILS</button>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+                    <div class="column-3">
+                        <div class="item-1">
+                            <img src="../images/pic_3.jpg" alt="Painting of Lord Buddha" style="width:100%">
+                            <div  class="main-sale-des">
+                                    <button type="button" id="detial-1" class="btn btn-info" data-toggle="modal" data-target="#myModal">DETAILS</button>
+                            </div>
+                        </div>
+
+                        <div class="item-1">
+                            <img src="../images/pic_6.jpg"  alt="Himalayan grandmother(mine)" style="width:100%">
+                            <div  class="main-sale-des">
+                                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal">Details</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer >
+            <div class="footer-main-div">
+                <section>
+                    <header>
+                        <h2>About Us</h2>
+                        <h2>Back to the Top</h2>
+                        <h2>Contact Us</h2>
+                    </header>
+                </section>
+                <section>
+                    <header>
+                        <h1>Buy Arts</h1>
+                    </header>
+                    <h2>Terms</h2>
+                    <h2>Refunds</h2>
+                    <h2>Shipping</h2>
+                </section>
+                <sectionv class="follow-us">
+                    <h1>Follow Us</h1>
+                        <i class="fa fa-facebook-official" style="font-size:48px;color:blue"></i>
+                        <i class="fa fa-linkedin-square" style="font-size:48px;color:blue"></i>
+                        <i class="fa fa-twitter-square" style="font-size:48px;color:blue"></i>
+                        <i class="fa fa fa-instagram" style="font-size:48px;color:blue"></i>
+                </section>
+            </div>
+            <div class="footer-second-div">
+                <h3>&#169;</h3>
+                <h3>Terms of Use</h3>
+            </div>
+            
+
+
+        </footer>
+        <script src="/scripts/script.js"></script>
+
+    </body>
+
+</html>
