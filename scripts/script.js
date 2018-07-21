@@ -87,11 +87,15 @@ $carousel.bind('slide.bs.carousel', function (e) {
     constructor(props) {
       super(props);
       this.state = { liked: false };
+      
     }
   
     render() {
       if (this.state.liked) {
-        return 'You liked this.';
+    
+      alert(this.props.name);
+      return 'you liked this asdfasdfasdf';
+      // return <h1>Hello, {this.props.name}</h1>;
       }
   
       return e(
@@ -104,3 +108,5 @@ $carousel.bind('slide.bs.carousel', function (e) {
 
 const domContainer = document.querySelector('#like_button_container');
 ReactDOM.render(e(LikeButton), domContainer);
+
+

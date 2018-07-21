@@ -10,9 +10,10 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
-    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
-    <script src="like_button.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react-dom.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+    <script type="text/babel" src="../JSX/jsxscript.js"></script>
     <link rel="stylesheet" href="../styles/index-style.css">
 </head>
 
@@ -44,7 +45,7 @@
             <li><a href="">PORTRAIT</a></li>
             <li><a href="">LANDSCAPE</a></li>
         </ul>
-
+        
     </nav>
 
 
@@ -203,7 +204,7 @@
                          <!--  form for questions end  -->
                          <!-- frames element -->
                         <div id="frames" class="collapse">
-                              
+                               
                             <table>
                                <tr>
                                     <td class="frames-temp1" colspan="3">
@@ -276,8 +277,9 @@
                                                     <h4><strong>Cost :</strong>{{cost_}}</h4> 
                                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta at error iusto natus fugiat, quae cumque rerum tempore mollitia eligendi quos minus cum nostrum eveniet quod voluptatibus alias voluptatum. Fugit maiores voluptatum, optio eius magnam pariatur, nesciunt laborum mollitia architecto expedita voluptatibus quia cupiditate temporibus rem sapiente voluptates reiciendis ratione dolore, et accusamus repellendus assumenda aliquid cumque inventore. Molestias, consectetur. Corrupti magnam ad cupiditate unde praesentium natus itaque aperiam iste accusantium assumenda mollitia quidem, inventore nisi numquam quia minima, amet nam, voluptas veritatis sint quibusdam laboriosam ab optio! Vel ipsam veniam impedit magnam? At doloremque nihil impedit iste labore aliquid.</p>
                                                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quam eius asperiores iusto vel vitae quibusdam harum modi laboriosam ullam soluta odit amet, voluptates possimus ut itaque. Dolorum necessitatibus accusantium, odit placeat sit quisquam. Itaque esse veniam porro officia quidem at aliquam iure dolore libero sunt fugit nesciunt temporibus, quasi non minus labore praesentium et maiores doloremque magnam, aperiam aspernatur ut accusantium. Corporis sed nam, numquam velit, consectetur ea, voluptate qui unde voluptatibus non similique!</p> -->
-                                                   
-                                                    <div id="like_button_container"></div>
+                                                    <div id="root"></div>
+                                        <script type="text/babel" src="../JSX/jsxscript.js"></script>
+                                         <div id="like_button_container"></div>
                                                 </div>
                                         </div>
                                         <div class="modal-footer">
@@ -358,7 +360,7 @@
 
 
         </footer>
-        <script src="/scripts/script.js"></script>
+        <script  src="/scripts/script.js"></script>
 
     </body>
 
